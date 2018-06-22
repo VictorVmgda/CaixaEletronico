@@ -39,7 +39,7 @@ public class SaqueHelper {
 		Double valorValido = valorDoSaque - (valorDoSaque % 10);
 		
 		int confirmaSaqueComValorValido = JOptionPane.showConfirmDialog(null, 
-				"Não há notas disponíveis para realizar este saque."+ "\nDeseja sacar R$" + valorValido  
+				"Não há notas disponíveis para sacar R$" + valorDoSaque + "."+ "\nDeseja sacar R$" + valorValido  
 				+ "?", "Valor de saque inválido",JOptionPane.YES_NO_OPTION);
 		
 		if (confirmaSaqueComValorValido == 0) mensagemDeSaque = this.efetuaSaque(valorValido);

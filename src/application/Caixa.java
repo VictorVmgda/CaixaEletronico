@@ -16,16 +16,16 @@ public class Caixa {
 
 			Double valorDoSaque = 0.0;
 			String mensagemDeSaque = ""; 
-			String mensagemDeConfirmacao = "Deseja realizar outro saque?";
+			String mensagemDeConfirmacao = "\nDeseja realizar outro saque?";
 			
 			do {
 				
 				try {
-					valorDoSaque = Double.parseDouble(JOptionPane.showInputDialog("Quanto deseja sacar?"));
+					valorDoSaque = Double.parseDouble(JOptionPane.showInputDialog(null,"Quanto deseja sacar?", "Realiza seu saque.", JOptionPane.QUESTION_MESSAGE));
 				}catch (NumberFormatException numberFormatException) {
 					JOptionPane.showMessageDialog(null, "Digite um valor em números");
 				}catch(NullPointerException nullPointerException) {
-					JOptionPane.showMessageDialog(null, "Obrigado pela paciência!", "Volte sempre.", JOptionPane.INFORMATION_MESSAGE);
+					JOptionPane.showMessageDialog(null, "Obrigado por utilizar nosso sistema!", "Volte sempre.", JOptionPane.INFORMATION_MESSAGE);
 					System.exit(0);
 				}
 			
@@ -41,7 +41,7 @@ public class Caixa {
 			
 		}while(repetir == 0);
 		
-		JOptionPane.showMessageDialog(null, "Obrigado pela paciência!", "Volte sempre.",
+		JOptionPane.showMessageDialog(null, "Obrigado por utilizar nosso sistema!", "Volte sempre.",
 					JOptionPane.INFORMATION_MESSAGE);
 		
 	}
