@@ -37,7 +37,7 @@ public class SaqueHelper {
 	public String verificaValor(Double valorDoSaque) {
 		
 		Double valorValido;
-		if ((valorDoSaque % 10) > 10) valorValido = valorDoSaque - (valorDoSaque % 10);
+		if (valorDoSaque > 10) valorValido = valorDoSaque - (valorDoSaque % 10);
 		else valorValido = 10.0;
 		
 		int confirmaSaqueComValorValido = JOptionPane.showConfirmDialog(null, 
