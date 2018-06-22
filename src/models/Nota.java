@@ -35,8 +35,8 @@ public class Nota {
 	
 	//Getters and Setters
 	public String getMensagem() {
-		return this.getQuantidade() > 1 ? this.getQuantidade() + " notas de " + this.getTitulo() + " reais." 
-					: this.getQuantidade() + " nota de " + this.getTitulo() + " reais.";
+		return this.getQuantidade() > 1 ? this.getQuantidade() + " notas de " + this.getTitulo() + "." 
+					: this.getQuantidade() + " nota de " + this.getTitulo() + ".";
 	}
 
 	//Getters e Setters
