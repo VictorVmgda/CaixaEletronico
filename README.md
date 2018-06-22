@@ -1,8 +1,8 @@
-Linguagem utilizada: Java.
-Versão: 1.8.
-Execução do projeto por: Console junto com a biblioteca JOptionPane.
+# Sistema de saques para clientes utilizando caixas eletrônicos
 
-Sistema de saques para clientes utilizando caixas eletrônicos
+#### Linguagem utilizada: Java.
+#### Versão: 1.8.
+#### Execução do projeto por: Console junto com a biblioteca JOptionPane.
 
 Dentro desse sistema, é necessário com que, ao cliente efetuar um saque, seja entregue o menor número de notas 
 possíveis, como por exemplo, ao requisitar um saque de oitenta reais, venha a ser retornado uma nota de cinquenta reais, 
@@ -16,7 +16,7 @@ usuário tentar sacar um valor de, por exemplo, noventa e cinco reais, deve apar
 que o valor é inválido dentro do sistema, dando ao mesmo, uma opção de sacar um valor de noventa reais, que assim, 
 já se torna um valor disponível, tendo então a possibilidade de aceitar ou não.
 
-Dados técnicos
+# Dados técnicos
 
 Para criação do algoritmo, foi utilizada a programação orientada a objetos, utilizando alguns padrões de projeto, como
 por exemplo, o chain of responsability, fazendo com que, se o valor determinado for menor que a nota de cem reais,
@@ -26,7 +26,7 @@ uma estrutura condicional que verifica se o valor descrito quando dividido por d
 foi citado acima, se as notas não conseguirem fazer com que seja possível a realização do saque, então é feito um calcúlo
 abaixando o valor ao mínimo possível para que seja executável a ação do saque.
 
-Fluxo do sistema
+# Fluxo do sistema
 
 Ao iniciar o algoritmo, é exibida uma tela aonde é perguntado o valor do saque:
 
