@@ -4,6 +4,8 @@
 #### Versão: 1.8.
 #### Execução do projeto por: Console junto com a biblioteca JOptionPane.
 
+##### Rodar o projeto por linha de comando: java -jar caixa-eletronico.jar
+
 Dentro desse sistema, é necessário com que, ao cliente efetuar um saque, seja entregue o menor número de notas 
 possíveis, como por exemplo, ao requisitar um saque de oitenta reais, venha a ser retornado uma nota de cinquenta reais, 
 outra de vinte reais e mais uma de dez reais, tornando impróprio o retorno de quatro notas de vinte reais ou oito notas de 
